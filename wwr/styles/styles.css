@@ -1,19 +1,11 @@
-background {
-
+#background id{
     height: 725px;
-
-}
-
-content{
-    max-width: 1600px;
 }
 
 #content{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 1600px;
 }
 
 .icon{
@@ -34,7 +26,7 @@ body {
 }
 
 header {
-    background-color:bisque;
+    background-color:rgb(231, 226, 219);
 }
 
 .home-tittle{
@@ -64,18 +56,11 @@ nav a:hover{
     color: brown;
 }
 
-.book{
-    text-align:right;
+.book,.join{
+    text-align:center;
     text-decoration: none;
     background-color: azure;
     color: rgb(2, 129, 66);
-}
-
-.join{
-    text-align: center;
-    text-decoration: none;
-    background-color: azure;
-    color: rgb(8, 106, 131);
 }
 
 #background{
@@ -84,6 +69,7 @@ nav a:hover{
 
 .msg{
     color: rgb(15, 190, 53);
+    background-color: darkgrey;
 }
 
 footer{
@@ -110,7 +96,7 @@ footer p a:hover{
 
 h4{
     background-color:bisque;
-    color:darkcyan
+    color:rgb(32, 252, 252)
 }
 
 .msg p{
