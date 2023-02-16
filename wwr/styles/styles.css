@@ -76,7 +76,7 @@ nav a{
     text-decoration: none;
     background-color:darkgray;
     color: rgb(37, 7, 1);
-    
+    padding: 35px;
 }
 
 nav {
@@ -104,6 +104,7 @@ nav a:hover{
     text-decoration: none;
     background-color: cadetblue;
     color: rgb(1, 24, 13);
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -125,7 +126,7 @@ footer{
     color: black;
     font-size: medium;
     padding: 25px 50px;
-    margin-top: 25px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -169,6 +170,7 @@ h4{
     background-color: darkgray;
     color: rgb(51, 2, 2);
     padding-bottom: 15px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: .8em;
 }
 
@@ -217,6 +219,9 @@ hero-msg h1, hero-msg h4{
 
 main section img {
     box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card { 
+     margin: 200px 0;
 }
 
 .rivers-card{
