@@ -67,10 +67,9 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
-.home-grid{
-    display:grid
-    grid-template-columns = 10
-    
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
 .home-tittle{
