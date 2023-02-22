@@ -87,14 +87,14 @@ footer{
 
 .msg p{
     text-decoration: none;
-    color: bisque;
+    color: rgb(8, 1, 32);
     text-align: center;
     padding-bottom: 15px;
 }
 
 footer{
     text-decoration: none;
-    color: bisque;
+    color: rgb(9, 1, 29);
     text-align: center;
     padding: 25px 50px;
 }
@@ -106,9 +106,17 @@ footer.social img{
     padding-top: 15px;
 }
 
-.book,.join{
+.home-title{
     background-color: bisque;
     color: black;
+    text-decoration: none;
+    padding: 155px 30px;
+    margin-top: 10px;
+}
+
+.book,.join{
+    background-color: bisque;
+    color: rgb(3, 22, 37);
 }
 
 #hero-box{
