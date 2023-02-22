@@ -6,6 +6,19 @@
     grid-row-end: 9;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
 .mountains{
     grid-column-start: 2;
     grid-column-end: 7;
@@ -90,6 +103,7 @@ footer{
     color: rgb(8, 1, 32);
     text-align: center;
     padding-bottom: 15px;
+    font-size: .8em;
 }
 
 footer{
@@ -97,6 +111,8 @@ footer{
     color: rgb(9, 1, 29);
     text-align: center;
     padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #6f7364;
 }
 
 footer.social img{
@@ -112,11 +128,18 @@ footer.social img{
     text-decoration: none;
     padding: 155px 30px;
     margin-top: 10px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
 
 .book,.join{
     background-color: bisque;
     color: rgb(3, 22, 37);
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 #hero-box{
@@ -145,6 +168,41 @@ footer.social img{
     grid-row: 1/3;
     z-index: -1;
 }
+
+h2 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+          
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon{
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+       margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
