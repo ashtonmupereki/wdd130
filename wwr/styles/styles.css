@@ -47,8 +47,8 @@ header{
 nav a{
     text-align: center;
     text-decoration: none;
-    background-color: rgb(117,124,124);
-    color: rgb(43,1,10);
+    background-color: rgb(242, 245, 245);
+    color: rgb(2, 24, 1);
     padding: 35px;
 }
 
@@ -97,7 +97,7 @@ footer{
 footer a{
     text-align: left;
     background-color: rgb(110,219,238);
-    color: rgb(41,2,4);
+    color: rgb(19, 1, 2);
     text-decoration: none;
 }
 
@@ -235,7 +235,7 @@ nav{
 }
 
 footer{
-    background-color: #6f7364;
+    background-color: #f6f7f5;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
