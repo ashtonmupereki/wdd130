@@ -1,0 +1,142 @@
+body {
+    background-color: lightblue;
+  }
+
+  header {
+    background-color: blue;
+    color: rgb(56, 2, 2);
+  }
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    height: 50px;
+  }
+  
+  nav a {
+    background-color: lightgray;
+    padding: 10px;
+  }
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    margin-bottom: 40px;
+  }
+
+  #hero-box {
+    position: relative;
+}
+
+#hero-msg {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+    color: rgb(253, 4, 4);
+}
+
+#hero-img {
+    width: 700px;
+    
+}
+
+main p:first-of-type {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+main img:nth-of-type(-n+3) {
+    width: 300px;
+}
+
+main .banner3 img{
+    width: 500px;
+}
+
+main .banner3 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+banner{
+    order: 1;
+    float: left;
+}
+
+.banner1 {
+    width: 30%;
+    margin: 50px;
+    float: right;
+    order: 2;
+  }
+
+  .banner2 {
+    width: 30%;
+    margin: 50px;
+    float: right;
+    order: 3;
+  }
+
+  footer {
+    background-color: blue;
+  }
+
+  .Social {
+    float: right;
+    margin-right: 10px;
+  }
+
+  footer p a {
+    color: rgb(2, 73, 52);
+  }
+
+  footer {
+    text-align: left;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: rgb(49, 2, 2);
+    font-size: 16px;
+  }
+
+  main p {
+    background-color: LightGray;
+  }
+
+  main p {
+    font-size: 20px;
+    color: blue;
+    font-family: Arial, sans-serif;
+  }
+
+  main p:last-child {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .main-banner3 p:last-child {
+    border: 1px solid black;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  
