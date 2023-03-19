@@ -82,59 +82,59 @@ main .banner3 {
     margin: 50px;
     float: right;
     order: 2;
-  }
+}
 
   .banner2 {
     width: 30%;
     margin: 50px;
     float: right;
     order: 3;
-  }
+}
 
-  footer {
+footer {
     background-color: rgb(137, 245, 230);
-  }
+}
 
-  .Social {
+.Social {
     float: right;
     margin-right: 10px;
-  }
+}
 
-  footer p a {
+footer p a {
     color: rgb(2, 73, 52);
     margin-right: auto;
-  }
+}
 
-  footer {
+footer {
     text-align: left;
     padding: 3px;
     background-color: DarkSalmon;
     color: rgb(49, 2, 2);
     font-size: 16px;
-  }
+}
 
-  main p {
+main p {
     background-color: LightGray;
     font-family: "Comic Sans MS", cursive, sans-serif;
-  }
+}
 
-  main p {
+main p {
     font-size: 20px;
     color: rgb(1, 1, 41);
     
-  }
+}
 
-  main p:last-child {
+main p:last-child {
     border: 1px solid black;
     padding: 10px;
-  }
+}
 
-  .main-banner3 p:last-child {
+.main-banner3 p:last-child {
     border: 1px solid black;
     padding: 10px;
     width: 90%;
     margin: 0 auto;
-  }
+}
 
   
 
