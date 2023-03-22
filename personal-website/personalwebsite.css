@@ -1,10 +1,10 @@
 body {
-    background-color: lightblue;
+    background-color: #8bbf9f;
   }
 
   header {
-    background-color: rgb(87, 87, 87);
-    color: rgb(56, 2, 2);
+    
+    color: #fb8b24;
   }
 
 .home-grid {
@@ -20,11 +20,13 @@ header {
   }
 
   .logo {
-    height: 50px;
+    height: 90px;
   }
   
   nav a {
-    background-color: lightgray;
+    background-color:#8bbf9f ;
+    color: white;
+    font-family: Abril Fatface;
     padding: 10px;
   }
 
@@ -50,7 +52,7 @@ header {
 
 #hero-msg h1,
 #hero-msg h4 {
-    color: rgb(73, 5, 5);
+    color: #fb8b24;
 }
 
 #hero-img {
@@ -60,7 +62,9 @@ header {
 
 main p:first-of-type {
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Satisfy;
+    color: #fb8b24;
+    background-color: white;
 }
 
 main img:nth-of-type(-n+3) {
@@ -92,7 +96,7 @@ main .banner3 {
 }
 
 footer {
-    background-color: rgb(137, 245, 230);
+    background-color: #be5e70;
 }
 
 .Social {
@@ -101,26 +105,26 @@ footer {
 }
 
 footer p a {
-    color: rgb(2, 73, 52);
+    color: rgb(19, 1, 2);
     margin-right: auto;
 }
 
 footer {
     text-align: left;
     padding: 3px;
-    background-color: DarkSalmon;
+    background-color: #be5e70;
     color: rgb(49, 2, 2);
     font-size: 16px;
 }
 
 main p {
     background-color: LightGray;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family:[Satisfy];
 }
 
 main p {
     font-size: 20px;
-    color: rgb(1, 1, 41);
+    color: rgb(54, 54, 231);
     
 }
 
@@ -188,6 +192,41 @@ main p:last-child {
   background-color: white;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+}
 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
-  
+.container {
+    padding:2px;
+    text-align:center
+}
+.title{
+    color:grey;
+    font-size:18px
+}
+button{
+    border:none;
+    outline:none;
+    display:inline-block;
+    padding:8px;
+    color:white;
+    background-color:#000;
+    text-align:center;
+    cursor:pointer;width:100%;
+    
+   font-size:18px
+ }
+
+ button:hover{
+   opacity:.7
+ }
+ 
+ a{
+   text-decoration:none
+ }
