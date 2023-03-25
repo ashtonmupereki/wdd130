@@ -1,5 +1,5 @@
 body {
-    background-color: #8bbf9f;
+    background-color:white;
   }
 
   header {
@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1058b6;
   }
 
   .logo {
@@ -24,8 +25,8 @@ header {
   }
   
   nav a {
-    background-color:#79bb92 ;
-    color:rgb(49, 1, 1);
+    background-color:#253175 ;
+    color:white;
     font-family: Abril Fatface;
     padding: 10px;
   }
@@ -63,7 +64,7 @@ header {
 main p:first-of-type {
     text-align: center;
     font-family: Satisfy;
-    color: #552a03;
+    color: #2d4bac;
     background-color: white;
 }
 
@@ -112,8 +113,8 @@ footer p a {
 footer {
     text-align: left;
     padding: 3px;
-    background-color: #bd6878;
-    color: rgb(49, 2, 2);
+    background-color: white;
+    color: blue;
     font-size: 16px;
 }
 
@@ -195,7 +196,7 @@ main p:last-child {
 input[type=text], select, textarea {
   width: 200px; /* Full width */
   padding: 12px; /* Some padding */ 
-  border: 1px solid #8bbf9f; /* Gray border */
+  border: 1px solid #2c0202; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
@@ -221,6 +222,30 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #8bbf9f;
+  background-color: #1058b6;
   padding: 20px;
 }
+
+.banner-box{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+.banner {
+  position:relative;
+ 
+}
+
+.banner p:first-of-type {
+  position: absolute;
+  bottom:auto;
+  font-size: 14px;
+  border: 1px solid black;
+}
+
+#services img {
+  display: block;
+  margin: 0 auto;
+}
+
