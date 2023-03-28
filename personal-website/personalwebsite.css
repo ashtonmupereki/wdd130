@@ -1,7 +1,8 @@
 body {
     background-color:white;
+    font-family: Lato, Arial, sans-serif;
   }
-
+  
   header {
     
     color: #fb8b24;
@@ -18,16 +19,18 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #1058b6;
+    font-family: Abril Fatface;
   }
 
   .logo {
     height: 90px;
   }
+
+  
   
   nav a {
     background-color:#253175 ;
     color:white;
-    font-family: Abril Fatface;
     padding: 10px;
   }
 
@@ -185,7 +188,7 @@ main p:last-child {
   float: left;
 }
 
-.banner{
+.banners{
   margin-top: 130px;
 }
 
