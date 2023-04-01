@@ -1,6 +1,6 @@
 body {
-    background-color:white;
-    font-family: Lato, Arial, sans-serif;
+    background-color:#8bbf9f;
+    font-family: Satisfy, "Brush Script",monospace;
   }
   
   header {
@@ -18,8 +18,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1058b6;
-    font-family: Abril Fatface;
+    background-color: #be5e70;
+    
   }
 
   .logo {
@@ -29,9 +29,10 @@ header {
   
   
   nav a {
-    background-color:#253175 ;
-    color:white;
+    background-color:#fb8b24 ;
+    color:#2c0202;
     padding: 10px;
+    font-family: "Abril Fatface",Georgia, cursive;
   }
 
 .hero {
@@ -56,7 +57,7 @@ header {
 
 #hero-msg h1,
 #hero-msg h4 {
-    color: #8d4604;
+    color: #723802;
 }
 
 #hero-img {
@@ -67,8 +68,9 @@ header {
 main p:first-of-type {
     text-align: center;
     font-family: Satisfy;
-    color: #2d4bac;
-    background-color: white;
+    color: rgb(32, 1, 1);
+    background-color:#fb8b24;
+    font-family: "Abril Fatface",Georgia, cursive;
 }
 
 main img:nth-of-type(-n+3) {
@@ -92,6 +94,10 @@ main .banner3 {
     order: 2;
 }
 
+main{
+  background-color: #a4dbb9;
+}
+
   .banner2 {
     width: 30%;
     margin: 50px;
@@ -101,6 +107,7 @@ main .banner3 {
 
 footer {
     background-color: #be5e70;
+    font-family: Satisfy, "Brush Script", cursive;
 }
 
 .Social {
@@ -116,8 +123,8 @@ footer p a {
 footer {
     text-align: left;
     padding: 3px;
-    background-color: white;
-    color: blue;
+    background-color:#be5e70;
+    color: black;
     font-size: 16px;
 }
 
@@ -193,7 +200,7 @@ main p:last-child {
 }
 
 .white-bg {
-  background-color: white;
+  background-color:white;
 }
 
 input[type=text], select, textarea {
@@ -209,7 +216,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #fb8b24;
+  background-color:#d678b2;
   color: rgb(37, 1, 1);
   padding: 12px 20px;
   border: none;
@@ -225,7 +232,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #1058b6;
+  background-color: #617569;
   padding: 20px;
 }
 
