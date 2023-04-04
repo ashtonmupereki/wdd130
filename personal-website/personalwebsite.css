@@ -1,6 +1,6 @@
 body {
     background-color:#8bbf9f;
-    font-family: Satisfy, "Brush Script",monospace;
+    
   }
   
   header {
@@ -32,7 +32,7 @@ header {
     background-color:#fb8b24 ;
     color:#2c0202;
     padding: 10px;
-    font-family: "Abril Fatface",Georgia, cursive;
+    font-family: "Abril Fatface",Courier,serif;
   }
 
 .hero {
@@ -67,10 +67,10 @@ header {
 
 main p:first-of-type {
     text-align: center;
-    font-family: Satisfy;
+    
     color: rgb(32, 1, 1);
     background-color:#fb8b24;
-    font-family: "Abril Fatface",Georgia, cursive;
+    font-family: "Abril Fatface",Georgia, monospace;
 }
 
 main img:nth-of-type(-n+3) {
@@ -107,7 +107,7 @@ main{
 
 footer {
     background-color: #be5e70;
-    font-family: Satisfy, "Brush Script", cursive;
+    
 }
 
 .Social {
@@ -118,6 +118,7 @@ footer {
 footer p a {
     color: rgb(19, 1, 2);
     margin-right: auto;
+    font-family: "Satisfy", courier,monospace;
 }
 
 footer {
@@ -232,6 +233,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
+  color:white;
   background-color: #617569;
   padding: 20px;
 }
